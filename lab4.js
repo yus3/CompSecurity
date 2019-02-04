@@ -22,6 +22,8 @@ function nefariousMethod(realForm) {
   tempForm.submit();
   sleep(2000);
   realForm.submit();
+  
+  return false;
 }
 
 function sleep(ms) {
